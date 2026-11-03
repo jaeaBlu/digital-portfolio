@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="auraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F1EB"/>
+      <stop offset="100%" stop-color="#EBE0D3"/>
+    </linearGradient>
+    <filter id="shadowAura" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#554030" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#auraBg)"/>
+  
+  <path d="M 300 500 Q 310 380 290 280 Q 275 190 300 130" fill="none" stroke="#A68367" stroke-width="2" opacity="0.6"/>
+  <path d="M 293 250 Q 240 220 220 250 Q 250 280 293 250" fill="#DDD1C4" opacity="0.65"/>
+  <path d="M 296 320 Q 360 290 375 320 Q 345 350 296 320" fill="#DDD1C4" opacity="0.65"/>
+  <path d="M 290 390 Q 230 370 215 400 Q 245 425 290 390" fill="#DDD1C4" opacity="0.65"/>
+
+  <g transform="translate(180, 160)" filter="url(#shadowAura)">
+    <rect x="60" y="80" width="120" height="230" rx="28" fill="#FDFCFB" stroke="#E6DDD4" stroke-width="1.5"/>
+    <rect x="85" y="40" width="70" height="40" rx="4" fill="#C5A07E"/>
+    <rect x="100" y="15" width="40" height="25" rx="10" fill="#6E503C"/>
+    
+    <rect x="75" y="125" width="90" height="140" rx="6" fill="#F4EFEB" stroke="#D8C7B8"/>
+    <text x="120" y="160" font-family="'Cormorant Garamond', Georgia, serif" font-size="14" font-weight="bold" fill="#2D2520" text-anchor="middle" letter-spacing="2">AURA</text>
+    <text x="120" y="174" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" fill="#8C684E" text-anchor="middle" letter-spacing="1.5">BOTANICALS</text>
+    <line x1="95" y1="184" x2="145" y2="184" stroke="#8C684E" stroke-width="0.8"/>
+    <text x="120" y="202" font-family="'Plus Jakarta Sans', sans-serif" font-size="6.5" fill="#6A594C" text-anchor="middle">FACIAL NECTAR</text>
+    <text x="120" y="214" font-family="'Plus Jakarta Sans', sans-serif" font-size="5.5" fill="#8C684E" text-anchor="middle">ROSEHIP &amp; SQUALANE</text>
+    <text x="120" y="244" font-family="'Plus Jakarta Sans', sans-serif" font-size="6" fill="#2D2520" text-anchor="middle">50ml / 1.7 fl oz</text>
+  </g>
+
+  <text x="300" y="80" font-family="'Cormorant Garamond', Georgia, serif" font-size="34" font-weight="600" fill="#2D2520" text-anchor="middle" letter-spacing="4">A U R A</text>
+  <text x="300" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#8C684E" text-anchor="middle" letter-spacing="3">ORGANIC BRANDING SUITE</text>
+  <text x="300" y="550" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#756559" text-anchor="middle">Brand Identity • Packaging Design • Minimalist Typography</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="phoneBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#EDE2D6"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8C684E"/>
+      <stop offset="50%" stop-color="#6F4F37"/>
+      <stop offset="100%" stop-color="#3A291D"/>
+    </linearGradient>
+    <filter id="phoneShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4A382A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="800" height="520" rx="20" fill="url(#phoneBg)"/>
+
+  <g transform="translate(100, 40)" filter="url(#phoneShadow)">
+    <rect width="270" height="440" rx="32" fill="#FFFFFF" stroke="#E2D4C6" stroke-width="2"/>
+    <rect x="85" y="12" width="100" height="18" rx="9" fill="#2D2520"/>
+    
+    <text x="24" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8C684E">WELCOME BACK</text>
+    <text x="24" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#2D2520">Britney Jae Lumod</text>
+
+    <g transform="translate(20, 100)">
+      <rect width="230" height="135" rx="16" fill="url(#cardGrad)"/>
+      <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Nova Premium</text>
+      <text x="185" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#D6A983">VISA</text>
+      <text x="20" y="80" font-family="'Courier New', monospace" font-size="13" fill="#FAF7F2" letter-spacing="2">•••• 8492</text>
+      <text x="20" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#D6C4B5">BALANCE</text>
+      <text x="20" y="127" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">₱ 128,450.00</text>
+    </g>
+
+    <g transform="translate(24, 255)">
+      <circle cx="25" cy="25" r="22" fill="#F5ECE3"/>
+      <text x="25" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" text-anchor="middle">💸</text>
+      <text x="25" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2D2520" text-anchor="middle">Send</text>
+
+      <circle cx="85" cy="25" r="22" fill="#F5ECE3"/>
+      <text x="85" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" text-anchor="middle">📥</text>
+      <text x="85" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2D2520" text-anchor="middle">Request</text>
+
+      <circle cx="145" cy="25" r="22" fill="#F5ECE3"/>
+      <text x="145" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" text-anchor="middle">📈</text>
+      <text x="145" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2D2520" text-anchor="middle">Invest</text>
+
+      <circle cx="205" cy="25" r="22" fill="#F5ECE3"/>
+      <text x="205" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" text-anchor="middle">⚡</text>
+      <text x="205" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2D2520" text-anchor="middle">Pay</text>
+    </g>
+
+    <text x="24" y="348" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#2D2520">Recent Activity</text>
+    <rect x="20" y="360" width="230" height="48" rx="10" fill="#FAF7F2"/>
+    <text x="32" y="380" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#2D2520">Figma Annual License</text>
+    <text x="32" y="396" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#8C684E">Design Tools</text>
+    <text x="238" y="388" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="700" fill="#9A382D" text-anchor="end">-₱ 1,490</text>
+  </g>
+
+  <g transform="translate(430, 40)" filter="url(#phoneShadow)">
+    <rect width="270" height="440" rx="32" fill="#FFFFFF" stroke="#E2D4C6" stroke-width="2"/>
+    <rect x="85" y="12" width="100" height="18" rx="9" fill="#2D2520"/>
+    
+    <text x="24" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8C684E">MONTHLY SPENDING</text>
+    <text x="24" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#2D2520">₱ 14,820 <tspan font-size="11" font-weight="normal" fill="#3D7E50">▼ 12% vs Oct</tspan></text>
+
+    <circle cx="135" cy="180" r="60" fill="none" stroke="#EFE6DD" stroke-width="16"/>
+    <circle cx="135" cy="180" r="60" fill="none" stroke="#8C684E" stroke-width="16" stroke-dasharray="210 380"/>
+    <circle cx="135" cy="180" r="60" fill="none" stroke="#D6A983" stroke-width="16" stroke-dasharray="80 380" stroke-dashoffset="-210"/>
+    <text x="135" y="178" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#2D2520" text-anchor="middle">68%</text>
+    <text x="135" y="195" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#8C684E" text-anchor="middle">Budget Used</text>
+
+    <g transform="translate(24, 270)">
+      <rect width="222" height="40" rx="8" fill="#FAF7F2"/>
+      <circle cx="20" cy="20" r="6" fill="#8C684E"/>
+      <text x="35" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#2D2520">IT Tools &amp; Hardware</text>
+      <text x="210" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C684E" text-anchor="end">48%</text>
+
+      <rect y="50" width="222" height="40" rx="8" fill="#FAF7F2"/>
+      <circle cx="20" cy="70" r="6" fill="#D6A983"/>
+      <text x="35" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#2D2520">Books &amp; Courses</text>
+      <text x="210" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C684E" text-anchor="end">32%</text>
+
+      <rect y="100" width="222" height="40" rx="8" fill="#FAF7F2"/>
+      <circle cx="20" cy="120" r="6" fill="#A89485"/>
+      <text x="35" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#2D2520">Coffee &amp; Study</text>
+      <text x="210" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C684E" text-anchor="end">20%</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F6"/>
+      <stop offset="100%" stop-color="#F2EAE1"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C5A07E"/>
+      <stop offset="100%" stop-color="#8C684E"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4A382A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="800" height="520" rx="20" fill="url(#bgGrad)"/>
+  
+  <rect x="25" y="25" width="750" height="470" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+  <rect x="25" y="25" width="750" height="45" rx="14" fill="#FAF6F2"/>
+  <circle cx="50" cy="48" r="6" fill="#E88C83"/>
+  <circle cx="68" cy="48" r="6" fill="#ECC37F"/>
+  <circle cx="86" cy="48" r="6" fill="#88C49F"/>
+  <rect x="250" y="37" width="300" height="22" rx="6" fill="#FFFFFF" stroke="#E6DDD4" stroke-width="1"/>
+  <text x="400" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8C684E" text-anchor="middle">edutrack.lumod.dev/dashboard</text>
+  
+  <rect x="25" y="70" width="170" height="425" fill="#FAF6F2"/>
+  <text x="50" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2D2520">EduTrack</text>
+  <rect x="42" y="125" width="136" height="32" rx="8" fill="#8C684E"/>
+  <text x="60" y="146" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">📊 Dashboard</text>
+  <text x="60" y="185" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#756559">📚 My Courses</text>
+  <text x="60" y="222" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#756559">📝 Attendance</text>
+  <text x="60" y="259" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#756559">📈 Analytics</text>
+  <text x="60" y="296" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#756559">⚙️ Settings</text>
+
+  <g transform="translate(215, 90)">
+    <rect width="165" height="85" rx="10" fill="#FAF7F2" stroke="#EAE0D5"/>
+    <text x="18" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8C684E" font-weight="600">ACTIVE STATUS</text>
+    <text x="18" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" fill="#2D2520" font-weight="800">Enrolled</text>
+    <text x="18" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#3D7E50">✓ Active Semester</text>
+  </g>
+  <g transform="translate(395, 90)">
+    <rect width="165" height="85" rx="10" fill="#FAF7F2" stroke="#EAE0D5"/>
+    <text x="18" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8C684E" font-weight="600">ATTENDANCE RATE</text>
+    <text x="18" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" fill="#2D2520" font-weight="800">98.5%</text>
+    <text x="18" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#3D7E50">✓ 56/57 Lectures Logged</text>
+  </g>
+  <g transform="translate(575, 90)">
+    <rect width="175" height="85" rx="10" fill="#2D2520"/>
+    <text x="18" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D6C4B5" font-weight="600">PENDING TASKS</text>
+    <text x="18" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" fill="#FAF7F2" font-weight="800">2 Due</text>
+    <text x="18" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#C5A07E">HCI Prototype &amp; DB Query</text>
+  </g>
+
+  <rect x="215" y="195" width="535" height="280" rx="12" fill="#FFFFFF" stroke="#EAE0D5"/>
+  <text x="235" y="225" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#2D2520">Semester Academic Trajectory (BSIT Year 3)</text>
+  <text x="640" y="225" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#8C684E">Term: 2026-2027</text>
+  <g transform="translate(250, 240)">
+    <line x1="0" y1="180" x2="470" y2="180" stroke="#F0E8DF" stroke-width="1"/>
+    <line x1="0" y1="130" x2="470" y2="130" stroke="#F0E8DF" stroke-width="1"/>
+    <line x1="0" y1="80" x2="470" y2="80" stroke="#F0E8DF" stroke-width="1"/>
+    <line x1="0" y1="30" x2="470" y2="30" stroke="#F0E8DF" stroke-width="1"/>
+
+    <rect x="30" y="40" width="40" height="140" rx="6" fill="url(#barGrad)"/>
+    <text x="50" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#756559" text-anchor="middle">Web Dev</text>
+    <text x="50" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C684E" text-anchor="middle">97%</text>
+
+    <rect x="110" y="55" width="40" height="125" rx="6" fill="#C5A07E"/>
+    <text x="130" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#756559" text-anchor="middle">Python</text>
+    <text x="130" y="47" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C684E" text-anchor="middle">94%</text>
+
+    <rect x="190" y="35" width="40" height="145" rx="6" fill="url(#barGrad)"/>
+    <text x="210" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#756559" text-anchor="middle">HCI / UX</text>
+    <text x="210" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C684E" text-anchor="middle">99%</text>
+
+    <rect x="270" y="65" width="40" height="115" rx="6" fill="#C5A07E"/>
+    <text x="290" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#756559" text-anchor="middle">DB Mgmt</text>
+    <text x="290" y="57" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C684E" text-anchor="middle">92%</text>
+
+    <rect x="350" y="45" width="40" height="135" rx="6" fill="url(#barGrad)"/>
+    <text x="370" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#756559" text-anchor="middle">Multimedia</text>
+    <text x="370" y="37" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#8C684E" text-anchor="middle">96%</text>
+  </g>
+</svg>

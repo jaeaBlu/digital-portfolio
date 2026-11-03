@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F3EE"/>
+      <stop offset="50%" stop-color="#EFE6DD"/>
+      <stop offset="100%" stop-color="#E2D4C6"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7DCCA"/>
+      <stop offset="100%" stop-color="#E5BEA6"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#32241C"/>
+      <stop offset="100%" stop-color="#1E1611"/>
+    </linearGradient>
+    <linearGradient id="clothGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8C684E"/>
+      <stop offset="100%" stop-color="#6F4F37"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4A382A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="700" rx="36" fill="url(#bgGrad)"/>
+  <path d="M 120 700 L 120 300 Q 120 120 300 120 Q 480 120 480 300 L 480 700 Z" fill="#FDFBF9" opacity="0.75"/>
+  <circle cx="300" cy="240" r="160" fill="#E8DDD1" opacity="0.45"/>
+  <circle cx="140" cy="170" r="6" fill="#A27D5E" opacity="0.6"/>
+  <circle cx="460" cy="190" r="5" fill="#A27D5E" opacity="0.4"/>
+  <circle cx="470" cy="215" r="9" fill="#C5A07E" opacity="0.3"/>
+  <line x1="90" y1="240" x2="140" y2="240" stroke="#8C684E" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Character Artwork -->
+  <g filter="url(#softShadow)">
+    <path d="M 210 260 C 185 330 175 440 190 520 C 220 550 250 560 250 560 L 350 560 C 350 560 380 550 410 520 C 425 440 415 330 390 260 Z" fill="url(#hairGrad)"/>
+    <path d="M 160 700 L 190 500 C 220 465 250 455 300 455 C 350 455 380 465 410 500 L 440 700 Z" fill="url(#clothGrad)"/>
+    <path d="M 268 460 L 300 545 L 332 460 Z" fill="#FAF7F2"/>
+    <path d="M 220 490 L 300 620 L 250 700 Z" fill="#A27D5E" opacity="0.45"/>
+    <path d="M 380 490 L 300 620 L 350 700 Z" fill="#583E2C" opacity="0.45"/>
+    <path d="M 276 438 Q 300 475 324 438" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="300" cy="458" r="3.2" fill="#D4AF37"/>
+    <path d="M 272 380 L 272 448 C 272 458 328 458 328 448 L 328 380 Z" fill="#E5BEA6"/>
+    <path d="M 235 290 C 235 398 270 422 300 422 C 330 422 365 398 365 290 C 365 200 330 185 300 185 C 270 185 235 200 235 290 Z" fill="url(#skinGrad)"/>
+    <path d="M 230 270 C 230 190 260 160 300 160 C 340 160 370 190 370 270 C 365 240 340 215 300 215 C 260 215 235 240 230 270 Z" fill="url(#hairGrad)"/>
+    <path d="M 230 270 C 220 320 225 375 240 410 C 248 375 245 320 250 280 Z" fill="url(#hairGrad)"/>
+    <path d="M 370 270 C 380 320 375 375 360 410 C 352 375 355 320 350 280 Z" fill="url(#hairGrad)"/>
+    <!-- Eyes and Expression -->
+    <path d="M 256 270 Q 272 265 286 271" fill="none" stroke="#241B15" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 314 271 Q 328 265 344 270" fill="none" stroke="#241B15" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="271" cy="288" rx="8" ry="5.5" fill="#241B15"/>
+    <ellipse cx="329" cy="288" rx="8" ry="5.5" fill="#241B15"/>
+    <circle cx="269" cy="286" r="2.2" fill="#FFFFFF"/>
+    <circle cx="327" cy="286" r="2.2" fill="#FFFFFF"/>
+    <path d="M 298 295 L 297 325 Q 300 330 304 326" fill="none" stroke="#C99E85" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="255" cy="325" r="14" fill="#E89E88" opacity="0.32"/>
+    <circle cx="345" cy="325" r="14" fill="#E89E88" opacity="0.32"/>
+    <path d="M 285 352 Q 300 365 315 352" fill="none" stroke="#9A4E46" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Wireframe Chic Glasses -->
+    <rect x="250" y="276" width="38" height="25" rx="7" fill="none" stroke="#8C684E" stroke-width="1.8"/>
+    <rect x="312" y="276" width="38" height="25" rx="7" fill="none" stroke="#8C684E" stroke-width="1.8"/>
+    <path d="M 288 288 L 312 288" stroke="#8C684E" stroke-width="1.8" fill="none"/>
+    <path d="M 250 288 L 240 285" stroke="#8C684E" stroke-width="1.8" fill="none"/>
+    <path d="M 350 288 L 360 285" stroke="#8C684E" stroke-width="1.8" fill="none"/>
+  </g>
+
+  <!-- Floating Badges -->
+  <g transform="translate(42, 575)">
+    <rect width="215" height="74" rx="18" fill="#FFFFFF" opacity="0.96" filter="url(#softShadow)"/>
+    <circle cx="40" cy="37" r="18" fill="#F4EFEB"/>
+    <text x="40" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="bold" fill="#8C684E" text-anchor="middle">IT</text>
+    <text x="70" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2D2520">BSIT 3rd Year</text>
+    <text x="70" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="500" fill="#8C684E">Dean's List Honoree</text>
+  </g>
+
+  <g transform="translate(365, 95)">
+    <rect width="190" height="66" rx="16" fill="#2D2520" opacity="0.94" filter="url(#softShadow)"/>
+    <circle cx="34" cy="33" r="14" fill="#8C684E"/>
+    <text x="34" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">✦</text>
+    <text x="58" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FAF7F2">UI/UX &amp; Web Dev</text>
+    <text x="58" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="400" fill="#D6C4B5">Full-Stack Curious</text>
+  </g>
+</svg>

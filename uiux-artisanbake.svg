@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="artBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F7"/>
+      <stop offset="100%" stop-color="#ECE3D8"/>
+    </linearGradient>
+    <filter id="artShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#4A382A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="800" height="520" rx="20" fill="url(#artBg)"/>
+
+  <rect x="35" y="30" width="730" height="460" rx="14" fill="#FFFFFF" filter="url(#artShadow)"/>
+  
+  <rect x="35" y="30" width="730" height="50" rx="14" fill="#F8F3ED"/>
+  <circle cx="60" cy="55" r="5" fill="#C5A07E"/>
+  <circle cx="75" cy="55" r="5" fill="#C5A07E" opacity="0.6"/>
+  <circle cx="90" cy="55" r="5" fill="#C5A07E" opacity="0.3"/>
+  <text x="120" y="60" font-family="'Cormorant Garamond', Georgia, serif" font-size="17" font-weight="bold" fill="#2D2520">ArtisanBake • Online Atelier</text>
+
+  <g transform="translate(60, 105)">
+    <rect width="680" height="150" rx="12" fill="#F5EEE6"/>
+    <text x="35" y="55" font-family="'Cormorant Garamond', Georgia, serif" font-size="30" font-weight="700" fill="#2D2520">Handcrafted Sourdough &amp; Fine Patisserie</text>
+    <text x="35" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#756559">Fermented 36 hours for rich crumb and golden caramel crust. Freshly delivered daily.</text>
+    <rect x="35" y="102" width="140" height="34" rx="6" fill="#8C684E"/>
+    <text x="105" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Order for Delivery</text>
+  </g>
+
+  <g transform="translate(60, 280)">
+    <rect width="210" height="180" rx="10" fill="#FAF7F2" stroke="#E6DDD4"/>
+    <rect x="15" y="15" width="180" height="85" rx="6" fill="#EAE0D5"/>
+    <text x="105" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">🥖</text>
+    <text x="15" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#2D2520">Country Campagne Batard</text>
+    <text x="15" y="138" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#756559">Whole wheat, rye, wild starter</text>
+    <text x="15" y="160" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="800" fill="#8C684E">₱ 220.00</text>
+
+    <g transform="translate(235, 0)">
+      <rect width="210" height="180" rx="10" fill="#FAF7F2" stroke="#E6DDD4"/>
+      <rect x="15" y="15" width="180" height="85" rx="6" fill="#EAE0D5"/>
+      <text x="105" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">🥐</text>
+      <text x="15" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#2D2520">Almond Frangipane Croissant</text>
+      <text x="15" y="138" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#756559">Double baked, roasted almonds</text>
+      <text x="15" y="160" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="800" fill="#8C684E">₱ 190.00</text>
+    </g>
+
+    <g transform="translate(470, 0)">
+      <rect width="210" height="180" rx="10" fill="#FAF7F2" stroke="#E6DDD4"/>
+      <rect x="15" y="15" width="180" height="85" rx="6" fill="#EAE0D5"/>
+      <text x="105" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">🥧</text>
+      <text x="15" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#2D2520">Basque Burnt Cheesecake</text>
+      <text x="15" y="138" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#756559">Creamy custard, caramelized top</text>
+      <text x="15" y="160" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="800" fill="#8C684E">₱ 295.00</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8C684E"/>
+      <stop offset="100%" stop-color="#5B402E"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="30" fill="url(#logoGrad)"/>
+  <rect x="6" y="6" width="108" height="108" rx="24" fill="none" stroke="#FAF7F2" stroke-width="1.5" opacity="0.4"/>
+  <text x="60" y="73" font-family="'Cormorant Garamond', Georgia, serif" font-size="46" font-weight="600" fill="#FAF7F2" text-anchor="middle" letter-spacing="2">BJL</text>
+</svg>

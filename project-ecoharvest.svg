@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ecoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="100%" stop-color="#EBE3D8"/>
+    </linearGradient>
+    <filter id="ecoCard" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#4A382A" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="800" height="520" rx="20" fill="url(#ecoBg)"/>
+
+  <rect x="30" y="30" width="740" height="460" rx="16" fill="#FFFFFF" filter="url(#ecoCard)"/>
+  <rect x="30" y="30" width="740" height="50" rx="16" fill="#FAF6F0"/>
+  <circle cx="55" cy="55" r="5" fill="#C5A07E"/>
+  <circle cx="70" cy="55" r="5" fill="#C5A07E" opacity="0.6"/>
+  <circle cx="85" cy="55" r="5" fill="#C5A07E" opacity="0.3"/>
+  <text x="120" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#4B6640">🌿 EcoHarvest Direct</text>
+  <text x="450" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#756559">Farm Fresh</text>
+  <text x="540" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#756559">Producers</text>
+  <rect x="640" y="42" width="100" height="26" rx="13" fill="#4B6640"/>
+  <text x="690" y="59" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Cart (3)</text>
+
+  <rect x="55" y="100" width="690" height="110" rx="12" fill="#EAE5DC"/>
+  <text x="85" y="145" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="bold" fill="#2D2520">From Local Soil to Conscious Homes</text>
+  <text x="85" y="175" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#6A594C">Connecting ethical family farmers with community patrons across the region.</text>
+
+  <g transform="translate(55, 230)">
+    <rect width="215" height="235" rx="12" fill="#FAF7F2" stroke="#E5DDD3"/>
+    <rect x="15" y="15" width="185" height="110" rx="8" fill="#E2DACF"/>
+    <text x="107" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">☕</text>
+    <text x="107" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#8C684E" text-anchor="middle">Single Origin Coffee</text>
+    <text x="18" y="148" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2D2520">Bukidnon Arabica Roast</text>
+    <text x="18" y="168" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#756559">Highland Medium Roast 250g</text>
+    <text x="18" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#4B6640">₱ 420.00</text>
+    <rect x="145" y="180" width="55" height="28" rx="6" fill="#8C684E"/>
+    <text x="172" y="198" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ Add</text>
+  </g>
+
+  <g transform="translate(292, 230)">
+    <rect width="215" height="235" rx="12" fill="#FAF7F2" stroke="#E5DDD3"/>
+    <rect x="15" y="15" width="185" height="110" rx="8" fill="#E2DACF"/>
+    <text x="107" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">🍯</text>
+    <text x="107" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#8C684E" text-anchor="middle">Wild Honeycomb</text>
+    <text x="18" y="148" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2D2520">Raw Forest Honey</text>
+    <text x="18" y="168" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#756559">Pure Unfiltered 350ml</text>
+    <text x="18" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#4B6640">₱ 350.00</text>
+    <rect x="145" y="180" width="55" height="28" rx="6" fill="#8C684E"/>
+    <text x="172" y="198" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ Add</text>
+  </g>
+
+  <g transform="translate(530, 230)">
+    <rect width="215" height="235" rx="12" fill="#FAF7F2" stroke="#E5DDD3"/>
+    <rect x="15" y="15" width="185" height="110" rx="8" fill="#E2DACF"/>
+    <text x="107" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">🌾</text>
+    <text x="107" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#8C684E" text-anchor="middle">Heirloom Grains</text>
+    <text x="18" y="148" font-family="'Plus Jakarta Sans', sans-serif" font-size="12.5" font-weight="700" fill="#2D2520">Cordillera Red Rice</text>
+    <text x="18" y="168" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#756559">Organic Harvest 2kg</text>
+    <text x="18" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#4B6640">₱ 280.00</text>
+    <rect x="145" y="180" width="55" height="28" rx="6" fill="#8C684E"/>
+    <text x="172" y="198" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ Add</text>
+  </g>
+</svg>

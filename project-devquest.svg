@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="codeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#261E1A"/>
+      <stop offset="100%" stop-color="#191310"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="20" fill="url(#codeBg)"/>
+
+  <rect x="35" y="30" width="730" height="460" rx="14" fill="#1F1814" stroke="#46382E" stroke-width="1.5"/>
+  <circle cx="65" cy="55" r="5" fill="#E88C83"/>
+  <circle cx="82" cy="55" r="5" fill="#ECC37F"/>
+  <circle cx="99" cy="55" r="5" fill="#88C49F"/>
+  <text x="400" y="60" font-family="'Courier New', monospace" font-size="12" fill="#BFA997" text-anchor="middle">devquest_quiz_engine.js — Question 08 / 20</text>
+
+  <rect x="65" y="85" width="670" height="6" rx="3" fill="#3D3027"/>
+  <rect x="65" y="85" width="280" height="6" rx="3" fill="#D6A983"/>
+
+  <g transform="translate(65, 115)">
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#C5A07E">CATEGORY: JAVASCRIPT ES6 &amp; DATA STRUCTURES</text>
+    <text x="0" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="600" fill="#FDFBF9">What will the following asynchronous promise chain return in strict mode?</text>
+    
+    <rect x="0" y="90" width="670" height="120" rx="8" fill="#140F0D" stroke="#382C24"/>
+    <text x="25" y="125" font-family="'Courier New', monospace" font-size="13" fill="#C5A07E">const <tspan fill="#FAF7F2">fetchUserData</tspan> = async (id) =&gt; {</text>
+    <text x="45" y="150" font-family="'Courier New', monospace" font-size="13" fill="#8C684E">// Antigravity Async Handshake</text>
+    <text x="45" y="172" font-family="'Courier New', monospace" font-size="13" fill="#D6A983">const <tspan fill="#FAF7F2">user = await db.query(`SELECT * FROM it_students WHERE id = ${id}`);</tspan></text>
+    <text x="45" y="194" font-family="'Courier New', monospace" font-size="13" fill="#FAF7F2">return user ? { ...user, status: "Active" } : null;</text>
+    <text x="25" y="216" font-family="'Courier New', monospace" font-size="13" fill="#C5A07E">};</text>
+  </g>
+
+  <g transform="translate(65, 360)">
+    <rect x="0" y="0" width="320" height="48" rx="8" fill="#2C221C" stroke="#4B392F"/>
+    <text x="20" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#EAE0D5"><tspan font-weight="bold" fill="#D6A983">A.</tspan> An unhandled Promise rejection</text>
+    
+    <rect x="350" y="0" width="320" height="48" rx="8" fill="#4B382B" stroke="#D6A983" stroke-width="1.5"/>
+    <text x="370" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#FAF7F2"><tspan font-weight="bold" fill="#D6A983">B.</tspan> A Promise resolving to student object ✓</text>
+
+    <rect x="0" y="60" width="320" height="48" rx="8" fill="#2C221C" stroke="#4B392F"/>
+    <text x="20" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#EAE0D5"><tspan font-weight="bold" fill="#D6A983">C.</tspan> Synchronous execution block</text>
+
+    <rect x="350" y="60" width="320" height="48" rx="8" fill="#2C221C" stroke="#4B392F"/>
+    <text x="370" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#EAE0D5"><tspan font-weight="bold" fill="#D6A983">D.</tspan> ReferenceError undefined query</text>
+  </g>
+</svg>

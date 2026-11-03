@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="typeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#EFE7DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#typeBg)"/>
+
+  <text x="60" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#8C684E" letter-spacing="4">ESSAYS ON FORM &amp; SPACE</text>
+  <line x1="60" y1="110" x2="540" y2="110" stroke="#C5A07E" stroke-width="1"/>
+
+  <text x="60" y="210" font-family="'Cormorant Garamond', Georgia, serif" font-size="80" font-weight="300" fill="#2D2520" letter-spacing="-1">Serenity</text>
+  <text x="60" y="280" font-family="'Cormorant Garamond', Georgia, serif" font-size="80" font-style="italic" fill="#8C684E" letter-spacing="-1">&amp; Structure</text>
+
+  <rect x="60" y="320" width="180" height="2" fill="#2D2520"/>
+  
+  <text x="60" y="360" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#58483D">Issue No. 04</text>
+  <text x="60" y="380" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#58483D">Curated by Britney Jae Lumod</text>
+  
+  <g transform="translate(300, 340)">
+    <rect width="240" height="180" rx="8" fill="#FFFFFF" stroke="#E2D6CB"/>
+    <text x="20" y="35" font-family="'Cormorant Garamond', Georgia, serif" font-size="16" font-style="italic" fill="#2D2520">"Simplicity is the ultimate</text>
+    <text x="20" y="55" font-family="'Cormorant Garamond', Georgia, serif" font-size="16" font-style="italic" fill="#2D2520">sophistication in code &amp; craft."</text>
+    <text x="20" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#756559">A personal design exploration investigating whitespace, modular typography, and editorial poise in modern digital interfaces.</text>
+    <text x="20" y="155" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#8C684E">VOL. III • 2026</text>
+  </g>
+</svg>

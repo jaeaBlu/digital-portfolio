@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cafeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5ECE4"/>
+      <stop offset="100%" stop-color="#E5D6C7"/>
+    </linearGradient>
+    <filter id="cafeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4A382A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#cafeBg)"/>
+
+  <circle cx="300" cy="180" r="70" fill="#E8D1BC"/>
+  <circle cx="300" cy="180" r="50" fill="#8C684E" opacity="0.85"/>
+  <path d="M 285 170 L 315 170 L 310 195 C 310 200 290 200 290 195 Z" fill="#FAF7F2"/>
+  <path d="M 315 175 C 322 175 322 188 313 188" fill="none" stroke="#FAF7F2" stroke-width="2"/>
+
+  <g transform="translate(130, 260)" filter="url(#cafeShadow)">
+    <rect width="340" height="280" rx="14" fill="#FFFFFF" stroke="#E6DDD4"/>
+    <text x="170" y="45" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="bold" fill="#2D2520" text-anchor="middle">CAFÉ SOLSTICE</text>
+    <text x="170" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#8C684E" text-anchor="middle" letter-spacing="2">ARTISAN ROASTERY &amp; BAKERY</text>
+    <line x1="50" y1="80" x2="290" y2="80" stroke="#E6DDD4" stroke-width="1"/>
+
+    <text x="45" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#2D2520">Spanish Latte (Warm Oat Milk)</text>
+    <text x="295" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#8C684E" text-anchor="end">₱ 185</text>
+    <text x="45" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#857467">Espresso, condensed milk, cinnamon dust</text>
+
+    <text x="45" y="165" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#2D2520">Salted Caramel Cloud Brew</text>
+    <text x="295" y="165" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#8C684E" text-anchor="end">₱ 210</text>
+    <text x="45" y="183" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#857467">Cold extraction, brown sugar foam</text>
+
+    <text x="45" y="218" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#2D2520">Butter Flaky Pain au Chocolat</text>
+    <text x="295" y="218" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#8C684E" text-anchor="end">₱ 165</text>
+    <text x="45" y="236" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#857467">Laminated French pastry, dark ganache</text>
+  </g>
+</svg>
