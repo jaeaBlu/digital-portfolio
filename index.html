@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Britney Jae Lumod - Bachelor of Science in Information Technology Graduate, UI/UX Designer, and Creative Frontend Developer Portfolio.">
+  <meta name="keywords" content="Britney Jae Lumod, BSIT Graduate, IT Portfolio, UI/UX Designer, Frontend Developer, Graphic Design, Web Development">
+  <meta name="author" content="Britney Jae Lumod">
+  <title>Britney Jae Lumod | BSIT Graduate &amp; Creative Technologist</title>
+
+  <!-- Google Fonts Preconnect & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Favicon / Monogram -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo-bjl.svg">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION BAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Britney Jae Lumod Portfolio">
+        <div class="brand-icon">
+          <img src="assets/images/logo-bjl.svg" alt="BJL Logo Monogram" width="38" height="38">
+        </div>
+        <span>Britney Jae Lumod</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#graphic-design" class="nav-link">Graphic Design</a></li>
+          <li><a href="#uiux-design" class="nav-link">UI/UX</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <button onclick="openCVModal()" class="btn btn-outline btn-sm">
+          <span>📄 CV / Resume</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-links">
+      <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+      <li><a href="#education" class="mobile-nav-link">Education</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="#projects" class="mobile-nav-link">IT Projects</a></li>
+      <li><a href="#graphic-design" class="mobile-nav-link">Graphic Design</a></li>
+      <li><a href="#uiux-design" class="mobile-nav-link">UI/UX Design</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 30px;">
+      <button onclick="openCVModal()" class="btn btn-outline" style="width: 100%;">
+        <span>📄 Download CV</span>
+      </button>
+      <a href="#contact" class="btn btn-primary" style="width: 100%;">Get in Touch</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==================== 1. HOME SECTION ==================== -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>BSIT Graduate • UI/UX Designer &amp; Creative Technologist</span>
+          </div>
+          <h1 class="hero-title">
+            Bridging analytical code with <span class="highlight">thoughtful design.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Hello! I am <strong>Britney Jae Lumod</strong>, a Bachelor of Science in Information Technology graduate crafting clean frontend applications, empathetic user interfaces, and intentional multimedia experiences in warm, timeless aesthetics.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>View IT Projects</span>
+              <span>→</span>
+            </a>
+            <button onclick="openCVModal()" class="btn btn-secondary">
+              <span>📥 Download CV</span>
+            </button>
+            <a href="#contact" class="btn btn-outline">
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>BSIT</h3>
+              <p>Information Technology</p>
+            </div>
+            <div class="stat-item">
+              <h3>UI/UX</h3>
+              <p>Design &amp; Frontend Code</p>
+            </div>
+            <div class="stat-item">
+              <h3>12+</h3>
+              <p>Projects &amp; Works</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-wrapper">
+            <div class="portrait-frame">
+              <img src="assets/images/britney-portrait.jpg" alt="Britney Jae Lumod - BSIT Graduate &amp; Designer" width="440" height="520">
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-chip floating-chip-1">
+              <div class="chip-icon">✨</div>
+              <div class="chip-text">
+                <h5>Human-Centered Design</h5>
+                <span>Figma • Wireframes • UI/UX</span>
+              </div>
+            </div>
+
+            <div class="floating-chip floating-chip-2">
+              <div class="chip-icon">💻</div>
+              <div class="chip-text">
+                <h5>Modern Code</h5>
+                <span>HTML5 • CSS3 • JS • Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME SECTION ==================== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Britney</span>
+          <h2 class="section-title">Designing for humans, engineering with intention.</h2>
+          <p class="section-desc">A deep dive into my background, technical foundation, and design philosophy.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-story">
+            <p class="about-bio-lead">
+              "Technology is at its best when it feels naturally intuitive, visually calm, and genuinely accessible to everyone."
+            </p>
+            <p class="about-bio-text">
+              I am a <strong>Bachelor of Science in Information Technology graduate</strong>. My work is shaped by a dual passion: the logical discipline of clean, accessible code, paired with an eye for thoughtful layout, typography, and visual simplicity.
+            </p>
+            <p class="about-bio-text">
+              Rather than viewing software engineering and visual design as separate disciplines, I unite them. In every production application, user interface system, or branding project, I champion <em>human-centered empathy, WCAG accessibility, semantic code quality, and responsive layout fidelity</em>.
+            </p>
+            <p class="about-bio-text">
+              Equipped with comprehensive training in frontend development (HTML5, CSS3, modern JavaScript), Python, Figma prototyping, and multimedia production, I am prepared to build purposeful digital products that deliver measurable real-world impact.
+            </p>
+          </div>
+
+          <div class="about-details-card">
+            <h3 style="font-size: 1.6rem; margin-bottom: 20px;">Professional Profile Highlights</h3>
+            <ul class="about-details-list">
+              <li class="detail-item">
+                <span class="label">Full Name</span>
+                <span class="value">Britney Jae Lumod</span>
+              </li>
+              <li class="detail-item">
+                <span class="label">Degree Earned</span>
+                <span class="value">BS Information Technology</span>
+              </li>
+              <li class="detail-item">
+                <span class="label">Academic Status</span>
+                <span class="value">BSIT Graduate</span>
+              </li>
+              <li class="detail-item">
+                <span class="label">Location</span>
+                <span class="value">Philippines</span>
+              </li>
+              <li class="detail-item">
+                <span class="label">Core Specialization</span>
+                <span class="value">Frontend Engineering &amp; UI/UX</span>
+              </li>
+              <li class="detail-item">
+                <span class="label">Professional Availability</span>
+                <span class="value">Open for Full-Time Roles &amp; Projects</span>
+              </li>
+            </ul>
+
+            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+              <a href="#contact" class="btn btn-primary btn-sm">Work With Me</a>
+              <button onclick="openCVModal()" class="btn btn-secondary btn-sm">View Full CV</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Core Pillars -->
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-num">01</div>
+            <h4>Code with Intention</h4>
+            <p>Writing semantic, modular, and maintainable HTML5, CSS3, JavaScript, and Python code that values performance and structure.</p>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-num">02</div>
+            <h4>Design with Empathy</h4>
+            <p>Crafting accessible, human-first UI/UX flows, conducting user research, and prototyping interactive solutions in Figma.</p>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-num">03</div>
+            <h4>Visual Storytelling</h4>
+            <p>Infusing brand identities, editorial typography, and multimedia editing with warmth, refinement, and communicative clarity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. EDUCATION SECTION ==================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Credentials</span>
+          <h2 class="section-title">Education &amp; Credentials</h2>
+          <p class="section-desc">Academic degree in Information Technology, foundational coursework, and practical technical credentials.</p>
+        </div>
+
+        <div class="education-timeline">
+          <!-- Timeline Item 1: College Degree -->
+          <div class="timeline-card">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-badge">Academic Degree</span>
+              <div class="timeline-header">
+                <h3 class="timeline-title">Bachelor of Science in Information Technology (BSIT)</h3>
+                <span class="timeline-period">Degree Completed • Graduated</span>
+              </div>
+              <div class="timeline-institution">College of Computer Studies</div>
+              <p style="margin-bottom: 14px;">
+                Completed comprehensive coursework in Information Technology, focusing on software engineering, web systems, and user interface development. Directed frontend architecture and responsive implementation for departmental web applications.
+              </p>
+              
+              <h5 style="font-size: 0.92rem; font-weight: 700; color: var(--accent-warm); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Key Degree Coursework &amp; Competencies:</h5>
+              <div class="coursework-tags">
+                <span class="course-tag">Web Systems &amp; Technologies</span>
+                <span class="course-tag">Human-Computer Interaction (HCI)</span>
+                <span class="course-tag">Object-Oriented Programming (Python)</span>
+                <span class="course-tag">Database Management Systems (MySQL/SQLite)</span>
+                <span class="course-tag">Data Structures &amp; Algorithms</span>
+                <span class="course-tag">Multimedia &amp; Digital Animation</span>
+                <span class="course-tag">Information Assurance &amp; Security</span>
+                <span class="course-tag">Networking Fundamentals</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Senior High School -->
+          <div class="timeline-card">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-badge">Pre-University Education</span>
+              <div class="timeline-header">
+                <h3 class="timeline-title">Senior High School – Information &amp; Communications Technology</h3>
+                <span class="timeline-period">ICT Track Graduate</span>
+              </div>
+              <div class="timeline-institution">TVL - ICT / Computer Programming Specialization</div>
+              <p>
+                Completed the Information and Communications Technology (ICT) track, building core foundations in computer programming, web essentials, and multimedia design.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Certifications & Continuous Learning -->
+          <div class="timeline-card">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-badge">Certifications &amp; Micro-Credentials</span>
+              <div class="timeline-header">
+                <h3 class="timeline-title">Professional Online Certifications</h3>
+                <span class="timeline-period">Verified Credentials</span>
+              </div>
+              <div class="timeline-institution">Industry-Recognized Specializations</div>
+              <div class="coursework-tags" style="margin-top: 10px;">
+                <span class="course-tag">✓ Responsive Web Design Certification</span>
+                <span class="course-tag">✓ Foundations of User Experience (UX) Design</span>
+                <span class="course-tag">✓ Modern JavaScript &amp; Asynchronous Programming</span>
+                <span class="course-tag">✓ Python Programming for Data Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. SKILLS SECTION ==================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical &amp; Creative Skills</h2>
+          <p class="section-desc">A balanced toolkit spanning frontend code, programming languages, UI/UX systems, and graphic multimedia tools.</p>
+        </div>
+
+        <div class="skills-wrapper">
+          <div class="skills-grid">
+            <!-- Category 1: Web Development -->
+            <div class="skill-category-card">
+              <div class="category-header">
+                <div class="category-icon">🌐</div>
+                <div>
+                  <h3 class="category-title">Web Development</h3>
+                  <span style="font-size: 0.82rem; color: var(--text-muted);">Frontend Engineering</span>
+                </div>
+              </div>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>HTML5 (Semantic &amp; Accessible)</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="95%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>CSS3 (Flexbox, Grid, Animations)</span>
+                    <span>92%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="92%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>JavaScript (ES6+, DOM, Async/Fetch)</span>
+                    <span>88%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="88%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-pills">
+                <span class="skill-pill">Responsive Design</span>
+                <span class="skill-pill">CSS Variables</span>
+                <span class="skill-pill">Cross-Browser Testing</span>
+                <span class="skill-pill">DOM Manipulation</span>
+              </div>
+            </div>
+
+            <!-- Category 2: Programming & Data -->
+            <div class="skill-category-card">
+              <div class="category-header">
+                <div class="category-icon">🐍</div>
+                <div>
+                  <h3 class="category-title">Programming &amp; Data</h3>
+                  <span style="font-size: 0.82rem; color: var(--text-muted);">Logic &amp; Backends</span>
+                </div>
+              </div>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>Python (OOP, Data Structures)</span>
+                    <span>86%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="86%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>SQL (MySQL, SQLite Schemas)</span>
+                    <span>82%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="82%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>Git &amp; GitHub Version Control</span>
+                    <span>89%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="89%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-pills">
+                <span class="skill-pill">Algorithm Design</span>
+                <span class="skill-pill">Flask Basics</span>
+                <span class="skill-pill">RESTful APIs</span>
+                <span class="skill-pill">Terminal CLI</span>
+              </div>
+            </div>
+
+            <!-- Category 3: UI/UX Design -->
+            <div class="skill-category-card">
+              <div class="category-header">
+                <div class="category-icon">🎨</div>
+                <div>
+                  <h3 class="category-title">UI/UX Design</h3>
+                  <span style="font-size: 0.82rem; color: var(--text-muted);">User Experience &amp; Interaction</span>
+                </div>
+              </div>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>Figma (Components &amp; Auto-Layout)</span>
+                    <span>94%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="94%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>Wireframing &amp; Flow Mapping</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="90%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>Interactive Prototyping</span>
+                    <span>89%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="89%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-pills">
+                <span class="skill-pill">Design Systems</span>
+                <span class="skill-pill">Usability Testing</span>
+                <span class="skill-pill">Accessibility (WCAG)</span>
+                <span class="skill-pill">Information Architecture</span>
+              </div>
+            </div>
+
+            <!-- Category 4: Graphic Design & Multimedia -->
+            <div class="skill-category-card">
+              <div class="category-header">
+                <div class="category-icon">🎬</div>
+                <div>
+                  <h3 class="category-title">Graphic Design &amp; Multimedia</h3>
+                  <span style="font-size: 0.82rem; color: var(--text-muted);">Visual Arts &amp; Video</span>
+                </div>
+              </div>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>Graphic Design (Photoshop &amp; Illustrator)</span>
+                    <span>91%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="91%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>Multimedia &amp; Video Editing (Premiere/CapCut)</span>
+                    <span>87%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="87%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-item-info">
+                    <span>Editorial Typography &amp; Canva Pro</span>
+                    <span>93%</span>
+                  </div>
+                  <div class="skill-bar-bg">
+                    <div class="skill-bar-fill" data-level="93%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-pills">
+                <span class="skill-pill">Brand Identity</span>
+                <span class="skill-pill">Audio Sync</span>
+                <span class="skill-pill">Color Grading</span>
+                <span class="skill-pill">Social Creatives</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. EXPERIENCE SECTION ==================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Milestones</span>
+          <h2 class="section-title">Work Experience &amp; Leadership</h2>
+          <p class="section-desc">Professional roles where I applied technical engineering, design direction, and collaborative teamwork.</p>
+        </div>
+
+        <div class="experience-cards">
+          <!-- Role 1 -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <h3 class="exp-role">Frontend Web Developer &amp; Capstone Project Lead</h3>
+              <span class="exp-period">Professional Engagement</span>
+            </div>
+            <div class="exp-company">Enterprise &amp; Academic Systems Development</div>
+            <ul class="exp-bullets">
+              <li>Directed the frontend architecture, system design, and user interface engineering for production-level web applications including "EduTrack" and "LuminaCare".</li>
+              <li>Engineered high-performance responsive grid systems using semantic HTML5, modern CSS custom properties, and modular JavaScript ES6.</li>
+              <li>Coordinated team Git repositories, established branching workflows, and enforced code quality standards across multiple sprint deliverables.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="exp-tag">Technical Leadership</span>
+              <span class="exp-tag">HTML5 / CSS3</span>
+              <span class="exp-tag">JavaScript ES6</span>
+              <span class="exp-tag">Git / GitHub</span>
+            </div>
+          </div>
+
+          <!-- Role 2 -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <h3 class="exp-role">Freelance UI/UX &amp; Graphic Designer</h3>
+              <span class="exp-period">2023 – Present</span>
+            </div>
+            <div class="exp-company">Independent Studio Practice • Client Engagements</div>
+            <ul class="exp-bullets">
+              <li>Designed complete visual brand identities, logo suites, and responsive marketing landing pages for 8+ businesses and community organizations.</li>
+              <li>Delivered high-converting social media campaign assets that produced a 40% measurable increase in customer social interactions.</li>
+              <li>Translated business goals into user-friendly wireframes, Figma prototypes, and developer-ready component libraries.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="exp-tag">Figma Prototyping</span>
+              <span class="exp-tag">Brand Identity</span>
+              <span class="exp-tag">Adobe Illustrator</span>
+              <span class="exp-tag">Client Management</span>
+            </div>
+          </div>
+
+          <!-- Role 3 -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <h3 class="exp-role">Multimedia &amp; Communications Director</h3>
+              <span class="exp-period">Leadership Tenure</span>
+            </div>
+            <div class="exp-company">Campus Information Technology Organization</div>
+            <ul class="exp-bullets">
+              <li>Produced digital publications, motion graphics, and video teasers for the annual Department IT Summit and hackathons.</li>
+              <li>Oversaw visual branding consistency across event posters, social media channels, and stage backdrop presentations.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="exp-tag">Multimedia Editing</span>
+              <span class="exp-tag">Video Production</span>
+              <span class="exp-tag">Poster Design</span>
+              <span class="exp-tag">Event Branding</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. PROJECTS SECTION (IT & Web Apps) ==================== -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Development Showcase</span>
+          <h2 class="section-title">IT Projects &amp; Applications</h2>
+          <p class="section-desc">Selected software applications, management portals, and web platforms demonstrating full-lifecycle development.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-project-filter="all">All Projects</button>
+          <button class="filter-tab" data-project-filter="web">Web Applications</button>
+          <button class="filter-tab" data-project-filter="python">Python &amp; Systems</button>
+          <button class="filter-tab" data-project-filter="frontend">Frontend &amp; UI</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: EduTrack -->
+          <article class="project-card" data-category="web frontend">
+            <div class="project-thumb">
+              <img src="assets/images/project-edutrack.svg" alt="EduTrack Progress &amp; Attendance Portal" loading="lazy">
+              <div class="project-overlay">
+                <button onclick="openProjectModal('edutrack')" class="btn btn-secondary btn-sm">Quick Details</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Full-Stack Academic Portal</span>
+              <h3 class="project-title">EduTrack: Academic Progress &amp; Attendance Portal</h3>
+              <p class="project-desc">
+                An intuitive web dashboard enabling institutions and learners to monitor course progress, monitor attendance percentages with color-coded safety margins, and log academic milestones.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3 Grid</span>
+                <span class="tech-tag">JavaScript ES6</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">SQLite</span>
+              </div>
+              <div class="project-actions">
+                <button onclick="openProjectModal('edutrack')" class="btn btn-primary btn-sm">Explore Details</button>
+                <button onclick="showToast('Demo Preview', 'EduTrack simulated dashboard interactive preview loaded.', '🚀')" class="btn btn-secondary btn-sm">Live Preview</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: LuminaCare -->
+          <article class="project-card" data-category="web python">
+            <div class="project-thumb">
+              <img src="assets/images/project-luminacare.svg" alt="LuminaCare Healthcare Consultation Booking" loading="lazy">
+              <div class="project-overlay">
+                <button onclick="openProjectModal('luminacare')" class="btn btn-secondary btn-sm">Quick Details</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Healthcare Systems &amp; HCI</span>
+              <h3 class="project-title">LuminaCare: Clinical Consultation &amp; Booking</h3>
+              <p class="project-desc">
+                A streamlined appointment management platform featuring real-time doctor availability filtering, client-side validation, and automated intake schedule summaries.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CSS Custom Properties</span>
+                <span class="tech-tag">Python API</span>
+                <span class="tech-tag">LocalStorage</span>
+              </div>
+              <div class="project-actions">
+                <button onclick="openProjectModal('luminacare')" class="btn btn-primary btn-sm">Explore Details</button>
+                <button onclick="showToast('Demo Preview', 'LuminaCare consultation booking engine active.', '🚀')" class="btn btn-secondary btn-sm">Live Preview</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: EcoHarvest -->
+          <article class="project-card" data-category="web frontend">
+            <div class="project-thumb">
+              <img src="assets/images/project-ecoharvest.svg" alt="EcoHarvest Sustainable Agro Marketplace" loading="lazy">
+              <div class="project-overlay">
+                <button onclick="openProjectModal('ecoharvest')" class="btn btn-secondary btn-sm">Quick Details</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">E-Commerce &amp; Social Impact</span>
+              <h3 class="project-title">EcoHarvest: Local Agro-Marketplace Platform</h3>
+              <p class="project-desc">
+                A community-centric online marketplace connecting smallholder organic farmers with local urban patrons, featuring product filters, cart calculations, and farmer stories.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5 Semantic</span>
+                <span class="tech-tag">CSS3 Animations</span>
+                <span class="tech-tag">Vanilla JS</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+              <div class="project-actions">
+                <button onclick="openProjectModal('ecoharvest')" class="btn btn-primary btn-sm">Explore Details</button>
+                <button onclick="showToast('Demo Preview', 'EcoHarvest agricultural catalog ready for browsing.', '🚀')" class="btn btn-secondary btn-sm">Live Preview</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: DevQuest -->
+          <article class="project-card" data-category="python frontend">
+            <div class="project-thumb">
+              <img src="assets/images/project-devquest.svg" alt="DevQuest Gamified IT Quiz Engine" loading="lazy">
+              <div class="project-overlay">
+                <button onclick="openProjectModal('devquest')" class="btn btn-secondary btn-sm">Quick Details</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Educational Interactive App</span>
+              <h3 class="project-title">DevQuest: Gamified IT Certification Engine</h3>
+              <p class="project-desc">
+                A dynamic quiz companion designed for IT developers preparing for certifications. Features timed question rounds, syntax highlighting, score histories, and review breakdowns.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript ES6</span>
+                <span class="tech-tag">CSS3 Themes</span>
+                <span class="tech-tag">Python Data Prep</span>
+                <span class="tech-tag">JSON Schema</span>
+              </div>
+              <div class="project-actions">
+                <button onclick="openProjectModal('devquest')" class="btn btn-primary btn-sm">Explore Details</button>
+                <button onclick="showToast('Demo Preview', 'DevQuest revision quiz engine loaded.', '🚀')" class="btn btn-secondary btn-sm">Live Preview</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. GRAPHIC DESIGN SECTION ==================== -->
+    <section class="section" id="graphic-design">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Visual &amp; Multimedia Gallery</span>
+          <h2 class="section-title">Graphic Design &amp; Multimedia Works</h2>
+          <p class="section-desc">Selected brand identities, poster designs, editorial layouts, and social media campaigns crafted with aesthetic restraint.</p>
+        </div>
+
+        <!-- Graphic Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-graphic-filter="all">All Visual Works</button>
+          <button class="filter-tab" data-graphic-filter="branding">Branding &amp; Packaging</button>
+          <button class="filter-tab" data-graphic-filter="editorial">Editorial &amp; Poster</button>
+          <button class="filter-tab" data-graphic-filter="social">Social Media Kit</button>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Item 1: Aura Botanicals -->
+          <div class="gallery-item" data-category="branding" onclick="openGraphicModal('aurabotanicals')">
+            <div class="gallery-thumb">
+              <img src="assets/images/graphic-aura-botanicals.svg" alt="Aura Botanicals Skincare Brand Identity" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-tag">Brand Identity &amp; Packaging</span>
+              <h4 class="gallery-title">Aura Botanicals Suite</h4>
+              <p class="gallery-tools">Illustrator • Photoshop • Typography</p>
+            </div>
+          </div>
+
+          <!-- Item 2: TechPulse Poster -->
+          <div class="gallery-item" data-category="editorial" onclick="openGraphicModal('techpulse')">
+            <div class="gallery-thumb">
+              <img src="assets/images/graphic-techpulse.svg" alt="TechPulse 2026 IT Symposium Poster" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-tag">Editorial &amp; Key Visual</span>
+              <h4 class="gallery-title">TechPulse 2026 Poster</h4>
+              <p class="gallery-tools">Photoshop • Geometric Layout • Bronze Foil</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Café Solstice -->
+          <div class="gallery-item" data-category="branding" onclick="openGraphicModal('cafesolstice')">
+            <div class="gallery-thumb">
+              <img src="assets/images/graphic-cafe-solstice.svg" alt="Café Solstice Roastery Menu &amp; Identity" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-tag">Brand Collateral &amp; Menu</span>
+              <h4 class="gallery-title">Café Solstice Roastery</h4>
+              <p class="gallery-tools">Illustrator • InDesign • Earthy Tones</p>
+            </div>
+          </div>
+
+          <!-- Item 4: Harmony Fest -->
+          <div class="gallery-item" data-category="social" onclick="openGraphicModal('harmonyfest')">
+            <div class="gallery-thumb">
+              <img src="assets/images/graphic-harmony-fest.svg" alt="Harmony Music Festival Social Media Grid" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-tag">Social Media &amp; Campaign</span>
+              <h4 class="gallery-title">Harmony Acoustic Festival</h4>
+              <p class="gallery-tools">Photoshop • Canva Pro • Digital Grid</p>
+            </div>
+          </div>
+
+          <!-- Item 5: Typography Study -->
+          <div class="gallery-item" data-category="editorial" onclick="openGraphicModal('typography')">
+            <div class="gallery-thumb">
+              <img src="assets/images/graphic-minimalist-type.svg" alt="Minimalist Typography Editorial Study" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-tag">Publication &amp; Typography</span>
+              <h4 class="gallery-title">Serenity &amp; Structure</h4>
+              <p class="gallery-tools">InDesign • Editorial Scale Hierarchy</p>
+            </div>
+          </div>
+
+          <!-- Item 6: Kinfolk Living -->
+          <div class="gallery-item" data-category="editorial" onclick="openGraphicModal('kinfolk')">
+            <div class="gallery-thumb">
+              <img src="assets/images/graphic-kinfolk-living.svg" alt="Kinfolk Living Lookbook Design" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <span class="gallery-tag">Lookbook &amp; Publication</span>
+              <h4 class="gallery-title">Kinfolk Living Lookbook</h4>
+              <p class="gallery-tools">InDesign • Minimalist Architecture</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. UI/UX DESIGN SECTION ==================== -->
+    <section class="section section-alt" id="uiux-design">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Human-Centered Prototypes</span>
+          <h2 class="section-title">UI/UX Design Case Studies</h2>
+          <p class="section-desc">Interactive product designs that merge rigorous user experience research with delicate visual execution.</p>
+        </div>
+
+        <div class="uiux-cards">
+          <!-- Case Study 1: Nova Bank -->
+          <article class="uiux-case">
+            <div class="uiux-preview">
+              <img src="assets/images/uiux-novabank.svg" alt="NovaBank Minimalist Mobile Banking UI" loading="lazy">
+            </div>
+            <div class="uiux-content">
+              <span class="uiux-badge">Fintech Mobile Application</span>
+              <h3 class="uiux-title">Nova Bank: Modern Minimalist Banking &amp; Expense Flow</h3>
+              <p class="uiux-summary">
+                Nova Bank addresses financial fatigue by eliminating cluttered dashboards in traditional banking apps. Featuring high-contrast warm palettes, immediate card controls, and clear category breakdowns for conscious spenders.
+              </p>
+
+              <div class="uiux-process-grid">
+                <div class="process-step">
+                  <h6>01. Empathize</h6>
+                  <p>Surveyed 30 young professionals on banking friction points.</p>
+                </div>
+                <div class="process-step">
+                  <h6>02. Wireframe</h6>
+                  <p>Iterated 12 low-fidelity flows to reduce transfer taps to 3.</p>
+                </div>
+                <div class="process-step">
+                  <h6>03. Prototype</h6>
+                  <p>Full component library with micro-interactions in Figma.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                <button onclick="showToast('Figma Prototype', 'Nova Bank high-fidelity interactive flow ready for review.', '📱')" class="btn btn-primary btn-sm">View Prototype Concept</button>
+                <a href="#contact" class="btn btn-secondary btn-sm">Request Case Study PDF</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case Study 2: SereneMind -->
+          <article class="uiux-case reverse">
+            <div class="uiux-preview">
+              <img src="assets/images/uiux-serenemind.svg" alt="SereneMind Daily Reflection App UI" loading="lazy">
+            </div>
+            <div class="uiux-content">
+              <span class="uiux-badge">Mental Wellness &amp; Reflection</span>
+              <h3 class="uiux-title">SereneMind: Calm Daily Reflection Companion</h3>
+              <p class="uiux-summary">
+                A mindfulness application created with soothing warm beige backgrounds to avoid harsh screen glare. It guides users through box breathing rhythms and frictionless journal reflections in under two minutes.
+              </p>
+
+              <div class="uiux-process-grid">
+                <div class="process-step">
+                  <h6>01. Research</h6>
+                  <p>Researched cognitive load reduction through muted colors.</p>
+                </div>
+                <div class="process-step">
+                  <h6>02. Rhythm</h6>
+                  <p>Built animated SVG breathing rings for sensory focus.</p>
+                </div>
+                <div class="process-step">
+                  <h6>03. Testing</h6>
+                  <p>Achieved 96% task completion rate on usability trials.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                <button onclick="showToast('Figma Prototype', 'SereneMind mindfulness interaction prototype loaded.', '📱')" class="btn btn-primary btn-sm">View Prototype Concept</button>
+                <a href="#contact" class="btn btn-secondary btn-sm">Request Case Study PDF</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case Study 3: ArtisanBake -->
+          <article class="uiux-case">
+            <div class="uiux-preview">
+              <img src="assets/images/uiux-artisanbake.svg" alt="ArtisanBake Web Ordering Experience" loading="lazy">
+            </div>
+            <div class="uiux-content">
+              <span class="uiux-badge">Responsive Web Atelier</span>
+              <h3 class="uiux-title">ArtisanBake: Online Bakery Ordering &amp; Atelier</h3>
+              <p class="uiux-summary">
+                A desktop-to-mobile web ordering experience designed for an artisan sourdough bakery. Emphasizes sourdough fermentation stories, dietary filter tags, and a persistent drawer checkout.
+              </p>
+
+              <div class="uiux-process-grid">
+                <div class="process-step">
+                  <h6>01. Mapping</h6>
+                  <p>Mapped 3 primary buyer personas (Morning pick-up to bulk catering).</p>
+                </div>
+                <div class="process-step">
+                  <h6>02. Hierarchy</h6>
+                  <p>Emphasized high-resolution textures and clear ingredient tags.</p>
+                </div>
+                <div class="process-step">
+                  <h6>03. Checkout</h6>
+                  <p>Constructed frictionless slide-over cart with delivery scheduler.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                <button onclick="showToast('Figma Prototype', 'ArtisanBake desktop web ordering flow loaded.', '📱')" class="btn btn-primary btn-sm">View Prototype Concept</button>
+                <a href="#contact" class="btn btn-secondary btn-sm">Request Case Study PDF</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 9. CONTACT SECTION ==================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get in Touch with Britney</h2>
+          <p class="section-desc">Have a full-time role, project engagement, or want to discuss UI/UX design and frontend systems? I would be glad to connect.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Information Card -->
+          <div class="contact-card-info">
+            <h3>Let's create something thoughtful together.</h3>
+            <p>
+              I am actively open to <strong>full-time software engineering roles, frontend development, and UI/UX design opportunities</strong>. My inbox is always open.
+            </p>
+
+            <div class="contact-meta-list">
+              <div class="contact-meta-item">
+                <div class="contact-meta-icon">✉️</div>
+                <div class="contact-meta-text">
+                  <span class="label">Direct Email</span>
+                  <span class="val">jaealumod@gmail.com</span>
+                  <button id="copyEmailBtn" class="copy-email-btn">Copy</button>
+                </div>
+              </div>
+
+              <div class="contact-meta-item">
+                <div class="contact-meta-icon">📍</div>
+                <div class="contact-meta-text">
+                  <span class="label">Location</span>
+                  <span class="val">Philippines (Remote / Hybrid / On-site)</span>
+                </div>
+              </div>
+
+              <div class="contact-meta-item">
+                <div class="contact-meta-icon">⏱️</div>
+                <div class="contact-meta-text">
+                  <span class="label">Response Window</span>
+                  <span class="val">Typically within 24 hours</span>
+                </div>
+              </div>
+
+              <div class="contact-meta-item">
+                <div class="contact-meta-icon">🟢</div>
+                <div class="contact-meta-text">
+                  <span class="label">Current Status</span>
+                  <span class="val">BSIT Graduate • Open for Roles</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>GitHub</span>
+              </a>
+              <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>Behance</span>
+              </a>
+              <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>Dribbble</span>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-container">
+            <h3 style="font-size: 1.8rem; margin-bottom: 24px;">Send a Direct Message</h3>
+            
+            <form id="contactForm">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="senderName" class="form-label">Your Name *</label>
+                  <input type="text" id="senderName" class="form-input" placeholder="e.g. Maria Santos" required>
+                </div>
+                <div class="form-group">
+                  <label for="senderEmail" class="form-label">Email Address *</label>
+                  <input type="email" id="senderEmail" class="form-input" placeholder="name@company.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject" class="form-label">Subject / Inquiry Type</label>
+                <select id="senderSubject" class="form-select">
+                  <option value="Full-Time Employment Opportunity">Full-Time Employment Opportunity</option>
+                  <option value="UI/UX Design Project">UI/UX Design Project</option>
+                  <option value="Frontend Web Development">Frontend Web Development</option>
+                  <option value="Graphic & Multimedia Design">Graphic &amp; Multimedia Design</option>
+                  <option value="Consultation & Collaboration">Consultation &amp; Collaboration</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message *</label>
+                <textarea id="senderMessage" class="form-textarea" placeholder="Tell me about your team, role description, or project scope..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message to Britney</span>
+                <span>✉️</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Britney Jae Lumod</h3>
+          <p>
+            Bachelor of Science in Information Technology graduate passionate about building human-centered digital experiences through clean code, intuitive UI/UX, and visual storytelling.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education &amp; Credentials</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#projects">IT Projects</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Portfolio Areas</h4>
+          <ul class="footer-links">
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#graphic-design">Graphic Design Works</a></li>
+            <li><a href="#uiux-design">UI/UX Case Studies</a></li>
+            <li><a href="#contact">Contact &amp; Inquiries</a></li>
+            <li><a href="javascript:void(0)" onclick="openCVModal()">Download CV / Resume</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Britney Jae Lumod. Designed &amp; Coded with elegance.
+        </div>
+        <div>
+          Minimalist Beige &amp; Cream Edition • Built with HTML5, CSS3 &amp; Vanilla JavaScript
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODALS ==================== -->
+
+  <!-- 1. IT Project Details Modal -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close-btn" onclick="closeAllModals()" aria-label="Close Modal">✕</button>
+      <div id="projectModalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Graphic Design Lightbox Modal -->
+  <div class="modal-overlay" id="graphicModal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close-btn" onclick="closeAllModals()" aria-label="Close Modal">✕</button>
+      <div id="graphicModalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Downloadable CV / Resume Modal -->
+  <div class="modal-overlay" id="cvModal" role="dialog" aria-modal="true">
+    <div class="modal-box" style="max-width: 620px;">
+      <button class="modal-close-btn" onclick="closeAllModals()" aria-label="Close Modal">✕</button>
+      <div style="text-align: center; margin-bottom: 24px;">
+        <div style="width: 54px; height: 54px; border-radius: 50%; background: #FAF2EB; color: var(--accent-warm); display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin: 0 auto 16px auto;">
+          📄
+        </div>
+        <h3 style="font-size: 2rem; margin-bottom: 8px;">Britney Jae Lumod</h3>
+        <p style="color: var(--accent-warm); font-weight: 600; text-transform: uppercase; font-size: 0.82rem; letter-spacing: 1px;">Curriculum Vitae • BSIT Graduate</p>
+      </div>
+
+      <p style="font-size: 1rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 24px; text-align: center;">
+        Choose your preferred format to review Britney's credentials, technical skills, degree background, and project achievements.
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px;">
+        <!-- Option 1: PDF Download -->
+        <a href="assets/docs/Britney_Jae_Lumod_CV.pdf" download="Britney_Jae_Lumod_CV.pdf" onclick="showToast('Downloaded PDF', 'Britney Jae Lumod CV downloaded.', '📥')" class="btn btn-primary" style="justify-content: space-between; padding: 14px 24px;">
+          <span>Download Standard PDF Resume</span>
+          <span>📥 .PDF</span>
+        </a>
+
+        <!-- Option 2: Printable HTML Version -->
+        <a href="assets/docs/Britney_Jae_Lumod_CV.html" target="_blank" class="btn btn-secondary" style="justify-content: space-between; padding: 14px 24px;">
+          <span>Open Printable Interactive Resume</span>
+          <span>🖨️ .HTML</span>
+        </a>
+
+        <!-- Option 3: Text Version -->
+        <a href="assets/docs/Britney_Jae_Lumod_CV.txt" download="Britney_Jae_Lumod_CV.txt" onclick="showToast('Downloaded Text CV', 'Plain text resume downloaded.', '📋')" class="btn btn-outline" style="justify-content: space-between; padding: 14px 24px;">
+          <span>Download Plain Text Resume</span>
+          <span>📝 .TXT</span>
+        </a>
+      </div>
+
+      <div style="text-align: center; font-size: 0.85rem; color: var(--text-muted);">
+        BSIT Graduate • UI/UX &amp; Frontend • Available for Roles &amp; Collaborations
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to Top">↑</button>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
